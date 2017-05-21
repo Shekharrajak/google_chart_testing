@@ -6,4 +6,5 @@ A very simple proof-of-concept of using [lazy_high_charts](https://github.com/mi
 
 ## USAGE:
 
+	bundle install
     bundle exec rails s
