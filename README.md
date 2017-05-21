@@ -2,7 +2,7 @@ Ruby on Rails lazy high charts example
 ==============================
 
 
-A very simple proof-of-concept of using [lazy_high_charts](https://github.com/michelson/lazy_high_charts) with a Rails app.
+A very simple proof-of-concept of using [google_visualr](https://github.com/winston/google_visualr) with a Rails app.
 
 ## USAGE:
 
