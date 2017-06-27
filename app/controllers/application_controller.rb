@@ -3,7 +3,20 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
 
   def charts
-    @data_table = GoogleVisualr::DataTable.new
+    data_table_opt = {
+      showRowNumber: true,
+      width: '100%',
+      height: '100%' ,
+      showRowNumber: true,
+      page: 'enable',
+      pageSize: 2,
+      pagingSymbols: {
+        prev: 'prev',
+        next: 'next'
+      },
+      pagingButtonsConfiguration: 'auto'}
+
+    @data_table = GoogleVisualr::DataTable.new(data_table_opt)
     # Add Column Headers
     @data_table.new_column('string', 'Year' )
     @data_table.new_column('number', 'Sales')

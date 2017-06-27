@@ -3,7 +3,7 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in lazy_high_charts.gemspec
 gemspec
 
-gem "google_visualr", ">= 2.5"
+gem "google_visualr", path: '/Users/shekharrajak/Documents/gsoc17/google_visualr'
 # Use SCSS for stylesheets
 gem "sass"
 gem 'sass-rails'
